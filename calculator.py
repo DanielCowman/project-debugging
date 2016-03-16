@@ -17,7 +17,7 @@ def divide(first, second):
     try:
         return float(first / second)
     except ZeroDivisionError:
-        print("make sure everything including casing and spaces match I\'m sorry, I can\'t divide by zero")
+        print("I\'m sorry, I can\'t divide by zero")
     # TODO:
     # fill in code here that:
     #   1. checks the second number to see if it is zero
